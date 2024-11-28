@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LinkedIn Post Generator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>LinkedIn Post Generator</h1>
+    <p>Provide a LinkedIn profile URL and a prompt. Our AI will craft a LinkedIn post for you!</p>
+
+    <input type="url" id="urlInput" placeholder="Enter LinkedIn profile URL" required />
+    <textarea id="promptInput" placeholder="Enter your post prompt..." rows="4" required></textarea>
+    <button id="generateButton">Generate LinkedIn Post</button>
+
+    <div id="spinner" class="spinner" style="display: none;"></div>
+    <div id="output"></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
