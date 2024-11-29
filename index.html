@@ -15,9 +15,19 @@
     <textarea id="promptInput" placeholder="Enter your post prompt..." rows="4" required></textarea>
     <button id="generateButton">Generate LinkedIn Post</button>
 
+    <!-- Spinner for loading -->
     <div id="spinner" class="spinner" style="display: none;"></div>
-    <div id="output"></div>
+   
+    <div id="containerForPostAndImage">
+    <!-- Output message -->
+    <div id="postContent" style="display: none;"></div>
+
+    <!-- The generated image -->
+    <img id="generatedImage" src="" alt="Generated Image" style="display: none;" />
   </div>
+
+  </div>
+
   <script src="script.js"></script>
 </body>
 </html>
